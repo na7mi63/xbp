@@ -1,0 +1,23 @@
+ok = 0
+name=input("あなたのお名前は？")
+while(True):
+    print("あなたは神奈川大学に入学した。"
+    "このゲームは道用先生の好感度を上げるゲームだ。"
+"いくつかの選択肢を答えて好感度を上げ、単位取得を目指そう！")
+select=int(input("あなたはプログラム科目を取ろうとしている。"
+"道用先生の担当はXBPプログラムだが、あなたは何を取る？"
+"1.企業と何かを作りたい！マネジメントプログラム"
+"2.やっぱりこれでしょ。XBPプログラム"
+"3.留学したい!IBCプログラム"))
+
+if select==1:
+    print("残念。道用先生からの好感度1down")
+    continue
+elif select==2:
+    print("やったね。道用先生からの好感度1up!")
+    continue
+elif select==3:
+    print("残念。道用先生からの好感度1down")
+    continue
+While(True):
+    select=int(input(""))
