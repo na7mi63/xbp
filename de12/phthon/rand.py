@@ -1,7 +1,6 @@
 from os import name
 from re import A
 from select import select
-
 ok = 0
 name=input("あなたのお名前は？")
 while(True):
