@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>プログラミング</title>
+    <!-- ⑤スタイルシートの設定をしよう --><link rel="stylesheet" href="./css/style.css">
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+</head>
+<body>
+    <body style="background: #eee8aa;">
+    
+    <div>
+    <div style=" background: #bdb76b; padding: 20px; border: 2px dashed #808000; box-shadow: 0 0 0 5px #bdb76b; -moz-box-shadow: 0 0 0 5px #bdb76b; -webkit-box-shadow: 0 0 0 5px #bdb76b; font-size: 100%;"><h1>第5回ゲーム作成</h1></div>
+         <!-- ①↓に文字を書いてみよう -->
+         
+    </div>
+<div>
+    <h1>標準語を敬語に直しつつ、多くの言語に敬語のまま変換したい・・・</h1>
+</div>
+<div>
+    <h2>制作過程</h2>
+    <br>
+    必要なコード<br>
+    ・自動翻訳のコード<br>
+    ・敬語に変換してくれるコード
+    <br>
+    <br>
+    自動翻訳のコードは見つけられたのだが、敬語に変換するコードが見つからなかった。<br>
+    しかし、このサイト<a href="https://3keigo.com/">【３秒敬語】</a>を活かせば上手くいくかもと思ったが、<br>
+    このサイトの仕組みがわからない＆自動翻訳のコードがうまく作動しなかったため断念した。<br>
+    <br>
+    <h2>ソースコード</h2>
+    <pre><code>
+        from mt_auto_minhon_mlt import Translator
+
+        translator = Translator(
+            client_id='9d10c4706d96301a86f80a7794f9b13e06540966d',
+            client_secret='634904c2a7859c48abf37bc85bec20cf',
+            user_name='hikari00000',
+        )
+        en_actual = translator.translate_text('いぬ', source_lang='ja', target_lang='en')
+    </code></pre>
+    <br>
+    <h2>＜反省＞</h2>
+    アイデアはすごく良いものが思いついたなとは思ったけれど、自分たちが作りたいようにコードを見つけたりするのはとても大変だった。<br>
+    自動翻訳のコードが起動しないこと、敬語変換するための作業が分からず、完成させることができなかったので、もっといろんなやり方を調べても良かったのかもしれないなと感じた。
+    <br>
+
+</div>
+    <br>
+
+
+
+        
+
+
+        
+
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+
+     </div>
+
+    
+
+
+
+
+
+    
+
+
+        
+        
+
+
+        
+
+
+        
+         
+
+
+
+
+    </div>
+
+</body>
+</html>
